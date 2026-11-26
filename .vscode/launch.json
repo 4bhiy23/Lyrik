@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:VerciClone}",
+            "name": "Debug Lyrik",
+            "target": "Lyrik",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Lyrik"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:VerciClone}",
+            "name": "Release Lyrik",
+            "target": "Lyrik",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Lyrik"
+        }
+    ]
+}
